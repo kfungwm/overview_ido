@@ -2,7 +2,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   target: 'static',
   router: {
-    base: '/kfungwm/'
+    base: '/overview_ido/'
   },
   ssr: false, // Disable Server Side rendering,
   head: {
