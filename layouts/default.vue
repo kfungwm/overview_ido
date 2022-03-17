@@ -394,7 +394,7 @@ export default {
     justify-content: end;
   }
   .icontablet {
-    margin-left: 55px;
+    margin-left: 54px;
   }
 }
 </style>
