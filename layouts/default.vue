@@ -54,7 +54,7 @@
                 <div class="is-flex is-align-items-center">
                   <span class="secret-header is-flex-grow-2">Sale</span>
                   <div v-if="overview.contributed">
-                    <span class="has-text-weight-bold icon">
+                    <span class="has-text-weight-bold icon icontablet">
                       <img
                         :src="overview.deposit_token.logo"
                         alt=""
@@ -86,34 +86,6 @@
                   <div v-else class="has-text-weight-bold">TBA</div>
                 </div>
               </td>
-
-              <!-- <td>
-                <div class="is-flex is-align-items-center">
-                  <span class="secret-header is-flex-grow-2">Sale</span>
-                  <div v-if="overview.contributed">
-                    <span class="has-text-weight-bold">
-                      <span>
-                        {{
-                          (overview.contributed / overview.token_price).toFixed(
-                            0
-                          )
-                        }}
-                      </span>
-                      /
-                      <span>{{ overview.token_amount }}</span>
-                      ({{
-                        (
-                          (overview.contributed /
-                            overview.token_price /
-                            overview.token_amount) *
-                          100
-                        ).toFixed(2)
-                      }}%)
-                    </span>
-                  </div>
-                  <div v-else class="has-text-weight-bold">TBA</div>
-                </div>
-              </td> -->
 
               <!-- Token Price -->
               <td>
@@ -414,6 +386,15 @@ export default {
   }
   .image-nobox {
     display: unset;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .icon {
+    justify-content: end;
+  }
+  .icontablet {
+    margin-left: 55px;
   }
 }
 </style>

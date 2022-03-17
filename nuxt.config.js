@@ -4,7 +4,7 @@ export default {
   router: {
     base: '/overview_ido/'
   },
-  ssr: false, // Disable Server Side rendering,
+  ssr: false, 
   head: {
     title: 'solanium_overview',
     htmlAttrs: {
