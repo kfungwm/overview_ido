@@ -44,6 +44,26 @@
                     <p class="decoration-after">
                       {{ overview.sale_token.ticker }}
                     </p>
+                    <p class="mt-1">
+                      <a
+                        :href="`https://jup.ag/swap/USDC-${overview.sale_token.ticker}`"
+                        target="black"
+                        class=""
+                      >
+                        <img
+                          src="https://jup.ag/svg/jupiter-logo.svg"
+                          style="height: 16px"
+                      /></a>
+                      <a
+                        :href="`https://www.solanium.io/project/${overview.url}`"
+                        target="black"
+                        class="ml-3"
+                      >
+                        <img
+                          src="https://www.solanium.io/_nuxt/img/logo.081aa1f.svg"
+                          style="height: 16px"
+                      /></a>
+                    </p>
                   </div>
                 </div>
               </td>
