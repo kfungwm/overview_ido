@@ -29,7 +29,7 @@
                 <div class="is-flex">
                   <div>
                     <div
-                      class="is50-50 mr-4"
+                      class="is70-70 mr-5"
                       :style="{
                         backgroundImage: `url(${overview.sale_token.logo})`,
                       }"
@@ -367,9 +367,9 @@ export default {
   text-overflow: ellipsis;
   opacity: 0.6;
 }
-.is50-50 {
-  height: 50px;
-  width: 50px;
+.is70-70 {
+  height: 70px;
+  width: 70px;
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
