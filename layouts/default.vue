@@ -12,7 +12,7 @@
               <th class="has-text-white">Token price</th>
               <th class="has-text-white">ATH Price</th>
               <th class="has-text-white">ROI (ATH)</th>
-              <th class="has-text-white">Current price</th>
+              <!-- <th class="has-text-white">Current price</th> -->
               <th class="has-text-white">ROI (current)</th>
             </tr>
           </thead>
@@ -60,7 +60,7 @@
                         class="ml-3"
                       >
                         <img
-                          src="https://www.solanium.io/_nuxt/img/logo.081aa1f.svg"
+                          src="https://www.solanium.io/imgs/solanium-logo.png"
                           style="height: 16px"
                       /></a>
                     </p>
@@ -171,7 +171,7 @@
 
               <!-- Current Price -->
 
-              <td>
+              <!-- <td>
                 <div class="is-flex is-align-items-center">
                   <span class="secret-header is-flex-grow-2"
                     >Current Price</span
@@ -193,7 +193,7 @@
                   </div>
                   <div v-else class="has-text-weight-bold">TBA</div>
                 </div>
-              </td>
+              </td> -->
 
               <!-- ROI CURRENT -->
 
@@ -212,7 +212,7 @@
                         {{
                           overview.curr_roi.toLocaleString(undefined, {
                             minimumFractionDigits: 2,
-                            maximumFractionDigits: 2,
+                            maximumFractionDigits: 6,
                           })
                         }}x
                       </span>
@@ -228,7 +228,7 @@
                         {{
                           overview.curr_roi.toLocaleString(undefined, {
                             minimumFractionDigits: 2,
-                            maximumFractionDigits: 2,
+                            maximumFractionDigits: 6,
                           })
                         }}x
                       </span>
@@ -240,7 +240,7 @@
                         {{
                           overview.curr_roi.toLocaleString(undefined, {
                             minimumFractionDigits: 2,
-                            maximumFractionDigits: 2,
+                            maximumFractionDigits: 6,
                           })
                         }}x
                       </span>
